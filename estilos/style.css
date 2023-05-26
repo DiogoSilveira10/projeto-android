@@ -80,7 +80,7 @@ article > h1, h2{
     margin-left:0px;
     text-indent:10px;
 }
-article > p > a{
+.externalink{
     background-image:linear-gradient(to right, rgba(41, 232, 137, 0.788), rgba(0, 0, 0, 0.486));
     text-decoration: none;
     color:rgb(18, 80, 18);
@@ -92,7 +92,7 @@ article > p > a{
     border-radius:20px;
     transition-duration:0.5s;
 }
-article > p > a:hover{
+.externalink:hover{
     text-decoration:underline;
     /*background-image:linear-gradient(to left,white, black );*/
    
@@ -101,7 +101,7 @@ article > p > a:hover{
     background-image:linear-gradient(to right, rgba(41, 232, 137, 0.500), rgba(0, 0, 0, 0.300));
     box-shadow:0px 0px 20px rgba(0, 0, 0, 0.39)
 }
-article > p > a:active{
+.externalink:active{
     font-size:13px;
     color:white;
     background-image:linear-gradient(to right, rgb(41, 232, 137), rgb(0, 0, 0));
