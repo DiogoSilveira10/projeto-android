@@ -98,7 +98,7 @@ source{
     text-align:center;
 }
 article > p > a::after{
-    content:'🧷'
+    content:'\1F517'
 }
 main{
     border: 1px solid rgba(224, 122, 122, 0);
