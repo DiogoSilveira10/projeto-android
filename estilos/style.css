@@ -1,0 +1,186 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: idroid;
+    src: url(../fontes/idroid.otf) format('opentype');
+}
+@font-face{
+    font-family: bebas;
+    src:url(../fontes/BebasNeue-Regular.ttf);
+}
+/**{
+    margin-top:0px;
+    padding-top:0px;
+    margin-bottom:0px;
+    padding-bottom:0px;
+}*/
+:root{
+    --cor0:#c5ebd6;
+    --cor1:#83e1ad;
+    --cor2:#3ddc84;
+    --cor3:#2fa866;
+    --cor4:#1a5c37;
+    --cor5:#063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque:bebas, cursive;
+    --fonte-android:idroid, cursive;
+}
+body{
+    background-color:var(--cor0);
+    margin:0px;
+    margin-top:-20px;
+}
+header{
+    background-image: linear-gradient(rgb(42, 231, 137), rgb(18, 80, 18));
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:rgb(255, 255, 255);
+    padding-bottom:10px;
+    min-height:150px;
+}
+header > h1{
+    text-align:center;
+    padding-top:20px;
+    text-shadow: 1px 1px 1px black;
+    font-family:var(--fonte-destaque);
+}
+header > p{
+    text-align:center;
+    font-family:var(--fonte-padrao);
+    margin-bottom:20px;
+}
+nav{
+    background-color:rgb(18, 80, 18);
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding-bottom:13px;
+    padding-left:5px;
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.226)
+}
+nav > a{
+  text-decoration:none;
+  color:rgb(42, 231, 137);
+  padding:10px;
+  border-radius:5px;
+  font-family:var(--fonte-padrao);
+  font-weight:bold;
+  transition-duration:550ms
+}
+nav > a:hover{
+background-color:rgb(152, 243, 198);
+color:rgb(27, 146, 86);
+}
+article > h1, h2{
+    font-family: var(--fonte-android);
+    color:rgb(18, 80, 18);
+    background-image:linear-gradient(to right, rgba(42, 231, 137, 0.616), rgba(255, 255, 255, 0));
+    margin-left:0px;
+    text-indent:10px;
+}
+article > p > a{
+    background-image:linear-gradient(to right, rgb(41, 232, 136), rgba(0, 0, 0, 0.534));
+    text-decoration: none;
+    color:rgb(18, 80, 18);
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size: 13px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius:20px
+}
+article > p > a:hover{
+    text-decoration:underline
+}
+source{
+    text-align:center;
+}
+article > p > a::after{
+    content:'🧷'
+}
+main{
+    border: 1px solid rgba(224, 122, 122, 0);
+    padding-left:10px;
+    padding-right:10px;
+    margin: 0 auto;
+    background-color:white;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.466);
+    margin-bottom:-15.15px;
+    min-width:400px ;
+    max-width:800px;
+}
+main p{
+    margin: 15px 0px;
+    font-family:sans-serif;
+    line-height:2em;
+    font-size:1em;
+    text-indent:40px
+}
+main strong{
+    color:var(--cor4);
+    font-weight:bold;
+}
+picture > img, source{
+margin:auto;
+border: 2px solid rgba(0, 0, 0, 0);
+width: 100%;
+}
+article > img{
+display:block;
+margin:0 auto;
+}
+iframe{
+    position:absolute;
+    top:5%;
+    left:5%;
+    width:90%;
+    height:90%;
+}
+#dv1{
+    background-color:var(--cor5);
+    margin: 0px -11px 30px -11px;
+    padding:20px;
+    padding-bottom:59%;
+    position:relative
+}
+aside{
+    background-color:rgba(42, 231, 137, 0.205);
+    border-radius:5px;
+    margin-bottom:7px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.288);
+}
+aside > h3{
+    background-color:rgb(27, 146, 86);
+    color:white;
+    border-radius:10px 10px 0px 0px;
+    padding:10px;
+}
+p{
+    clear: both;
+}
+
+aside > p > a{
+    background-image:linear-gradient(to right, rgb(41, 232, 136), rgba(0, 0, 0, 0.534));
+    text-decoration: none;
+    color:rgb(18, 80, 18);
+    font-weight:bold;
+    font-family:sans-serif;
+    font-size: 13px;
+    padding-left:4px;
+    padding-right:4px;
+    border-radius:20px}
+aside > p > a::after{
+    content:'🧷'
+}
+aside > ul{
+    list-style-position:inside;
+    columns:2;
+}
+abbr{
+    text-decoration:none
+}
+footer{
+    background-color:rgba(33, 92, 62, 0.616);
+    display:block;
+    margin:25px 50px;
+    padding: 10px;
+    text-align:center;
+}
