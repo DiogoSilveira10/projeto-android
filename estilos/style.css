@@ -31,6 +31,10 @@ body{
     margin:0px;
     margin-top:-20px;
 }
+p{
+    padding:10px;
+    text-align:justify;
+}
 header{
     background-image: linear-gradient(rgb(42, 231, 137), rgb(18, 80, 18));
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -112,7 +116,7 @@ main p{
     font-family:sans-serif;
     line-height:2em;
     font-size:1em;
-    text-indent:40px
+    text-indent:20px
 }
 main strong{
     color:var(--cor4);
