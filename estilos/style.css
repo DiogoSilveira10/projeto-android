@@ -81,7 +81,7 @@ article > h1, h2{
     text-indent:10px;
 }
 article > p > a{
-    background-image:linear-gradient(to right, rgb(41, 232, 136), rgba(0, 0, 0, 0.534));
+    background-image:linear-gradient(to right, rgb(41, 232, 136), rgba(0, 0, 0, 0.712));
     text-decoration: none;
     color:rgb(18, 80, 18);
     font-weight:bold;
@@ -89,7 +89,8 @@ article > p > a{
     font-size: 13px;
     padding-left:4px;
     padding-right:4px;
-    border-radius:20px
+    border-radius:20px;
+    text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.877);
 }
 article > p > a:hover{
     text-decoration:underline
