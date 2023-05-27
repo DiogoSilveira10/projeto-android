@@ -58,7 +58,8 @@ nav{
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding-bottom:13px;
     padding-left:5px;
-    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.226)
+    box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.226);
+    margin-top:-5px
 }
 nav > a{
   text-decoration:none;
@@ -67,7 +68,7 @@ nav > a{
   border-radius:5px;
   font-family:var(--fonte-padrao);
   font-weight:bold;
-  transition-duration:550ms
+  transition-duration:150ms
 }
 nav > a:hover{
 background-color:rgb(152, 243, 198);
@@ -94,21 +95,15 @@ article > h1, h2{
 }
 .externalink:hover{
     text-decoration:underline;
-    /*background-image:linear-gradient(to left,white, black );*/
-   
     font-size:15px;
-    color:green;
+    color:var(--cor5);
     background-image:linear-gradient(to right, rgba(41, 232, 137, 0.500), rgba(0, 0, 0, 0.300));
     box-shadow:0px 0px 20px rgba(0, 0, 0, 0.39);
-
 }
 .externalink:active{
     font-size:13px;
     color:white;
     background-image:linear-gradient(to right, rgb(41, 232, 137), rgb(0, 0, 0));
-}
-source{
-    text-align:center;
 }
 .externalink::after{
     content:'\1F517'
@@ -151,7 +146,7 @@ iframe{
     width:90%;
     height:90%;
 }
-#dv1{
+.externalvideo{
     background-color:var(--cor5);
     margin: 0px -11px 30px -11px;
     padding:20px;
@@ -171,21 +166,6 @@ aside > h3{
     border-radius:10px 10px 0px 0px;
     padding:10px;
     margin-bottom:20px
-}
-
-aside > p > a{
-    background-image:linear-gradient(to right, rgb(41, 232, 136), rgba(0, 0, 0, 0.534));
-    text-decoration: none;
-    color:rgb(18, 80, 18);
-    font-weight:bold;
-    font-family:sans-serif;
-    font-size: 13px;
-    padding-left:4px;
-    padding-right:4px;
-    border-radius:20px
-}
-aside > p > a::after{
-    content:'🧷'
 }
 aside > ul{
     list-style-position:inside;
