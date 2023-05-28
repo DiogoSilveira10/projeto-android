@@ -62,17 +62,17 @@ nav{
     margin-top:-5px
 }
 nav > a{
-  text-decoration:none;
-  color:rgb(42, 231, 137);
-  padding:10px;
-  border-radius:5px;
-  font-family:var(--fonte-padrao);
-  font-weight:bold;
-  transition-duration:150ms
+    text-decoration:none;
+    color:rgb(42, 231, 137);
+    padding:10px;
+    border-radius:5px;
+    font-family:var(--fonte-padrao);
+    font-weight:bold;
+    transition-duration:150ms
 }
 nav > a:hover{
-background-color:rgb(152, 243, 198);
-color:rgb(27, 146, 86);
+    background-color:rgb(152, 243, 198);
+    color:rgb(27, 146, 86);
 }
 article > h1, h2{
     font-family: var(--fonte-android);
@@ -131,13 +131,13 @@ main strong{
     font-weight:bold;
 }
 picture > img, source{
-margin:auto;
-border: 2px solid rgba(0, 0, 0, 0);
-width: 100%;
+    margin:auto;
+    border: 2px solid rgba(0, 0, 0, 0);
+    width: 100%;
 }
 article > img{
-display:block;
-margin:0 auto;
+    display:block;
+    margin:0 auto;
 }
 iframe{
     position:absolute;
@@ -182,6 +182,6 @@ footer{
     padding:0px 10.8px;
 }
 footer > p{
-text-align:center;
-margin:15px 0px 0px 0px
+    text-align:center;
+    margin:15px 0px 0px 0px
 }
